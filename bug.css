@@ -1,0 +1,1 @@
+The CSS code has an unusual error where the specificity of selectors is not working as expected.  A more specific selector is being overridden by a less specific one. This is happening in a situation where multiple selectors potentially match the same element.
