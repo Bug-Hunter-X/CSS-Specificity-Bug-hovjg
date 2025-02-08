@@ -1,0 +1,13 @@
+/* solution.css */
+.container {
+  background-color: lightblue; /* This style should now apply correctly */
+}
+
+.container .item {
+  background-color: lightgreen; /* Specific style for items */
+}
+
+.item {
+  /* This is less specific and shouldn't override the .container .item */
+  /* background-color: yellow; */
+}
